@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Update the aptitude package manager
 sudo apt-get update
 
