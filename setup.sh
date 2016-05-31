@@ -7,12 +7,12 @@ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libread
 # install rbenv
 cd
 git clone git://github.com/sstephenson/rbenv.git .rbenv
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
-echo 'eval "$(rbenv init -)"' >> ~/.profile
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.profile
-source ~/.profile
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
 
 # install latest Ruby (May 2016)
 rbenv install -v 2.3.1
