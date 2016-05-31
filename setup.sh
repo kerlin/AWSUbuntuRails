@@ -24,7 +24,8 @@ ruby -v
 
 echo "gem: --no-document" > ~/.gemrc
 
-gem install bundler
+# use same version as Heroku
+gem install bundler -v 1.11.2
 
 gem install rails
 
