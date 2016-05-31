@@ -14,8 +14,9 @@ git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-buil
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.profile
 source ~/.profile
 
-rbenv install -v 2.2.3
-rbenv global 2.2.3
+# install latest Ruby (May 2016)
+rbenv install -v 2.3.1
+rbenv global 2.3.1
 
 ruby -v
 
